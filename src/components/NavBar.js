@@ -21,7 +21,7 @@ export default function NavBar() {
               Products
             </Link>
             <Link to={"/cart"} className="nav-link">
-              Cart - {cart.length}
+              Your Cart - {cart.length}
             </Link>
             {/* <Nav.Link href="#features">Features</Nav.Link> */}
             {/* <Nav.Link href="#pricing">Pricing</Nav.Link> */}
